@@ -56,6 +56,8 @@ github.com/sagernet/sing v0.7.13 h1:XNYgd8e3cxMULs/LLJspdn/deHrnPWyrrglNHeCUAYM=
 github.com/sagernet/sing v0.7.13/go.mod h1:ARkL0gM13/Iv5VCZmci/NuoOlePoIsW0m7BWfln/Hak=
 github.com/sagernet/sing-shadowsocks v0.2.9 h1:Paep5zCszRKsEn8587O0MnhFWKJwDW1Y4zOYYlIxMkM=
 github.com/sagernet/sing-shadowsocks v0.2.9/go.mod h1:TE/Z6401Pi8tgr0nBZcM/xawAI6u3F6TTbz4nH/qw+8=
+github.com/sevaktigranyan305-netizen/Xray-core v0.0.11-test h1:XETRDUXbxd21u/0Dh2xyyaiokJaFutC4nyFkk4qbq3A=
+github.com/sevaktigranyan305-netizen/Xray-core v0.0.11-test/go.mod h1:LoG6Y9ysn3BULSTrJ7z545FbqkWRKon4k+Wprls9k4s=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/vishvananda/netlink v1.3.1 h1:3AEMt62VKqz90r0tmNhog0r/PpWKmrEShJU0wJW6bV0=
@@ -64,8 +66,6 @@ github.com/vishvananda/netns v0.0.5 h1:DfiHV+j8bA32MFM7bfEunvT8IAqQ/NzSJHtcmW5zd
 github.com/vishvananda/netns v0.0.5/go.mod h1:SpkAiCQRtJ6TvvxPnOSyH3BMl6unz3xZlaprSwhNNJM=
 github.com/xtls/reality v0.0.0-20260322125925-9234c772ba8f h1:iy2JRioxmUpoJ3SzbFPyTxHZMbR/rSHP7dOOgYaq1O8=
 github.com/xtls/reality v0.0.0-20260322125925-9234c772ba8f/go.mod h1:DsJblcWDGt76+FVqBVwbwRhxyyNJsGV48gJLch0OOWI=
-github.com/xtls/xray-core v1.260327.1-0.20260425231635-b4f08981becb h1:yln5Y7EwfwQlOUdVTx1k/rJzmWJOqdYCWHm3ImT9fZo=
-github.com/xtls/xray-core v1.260327.1-0.20260425231635-b4f08981becb/go.mod h1:LoG6Y9ysn3BULSTrJ7z545FbqkWRKon4k+Wprls9k4s=
 github.com/xyproto/randomstring v1.0.5 h1:YtlWPoRdgMu3NZtP45drfy1GKoojuR7hmRcnhZqKjWU=
 github.com/xyproto/randomstring v1.0.5/go.mod h1:rgmS5DeNXLivK7YprL0pY+lTuhNQW3iGxZ18UQApw/E=
 go.opentelemetry.io/auto/sdk v1.2.1 h1:jXsnJ4Lmnqd11kwkBV2LgLoFMZKizbCi5fNZ/ipaZ64=

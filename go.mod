@@ -7,6 +7,14 @@ require (
 	golang.org/x/mobile v0.0.0-20260410095206-2cfb76559b7b
 )
 
+// Use the sevaktigranyan305-netizen fork of xray-core, which adds:
+//   - VLESS L3 server-side virtualNetwork (gVisor netstack + IPAM, persisted)
+//   - VLESS L3 client-side device backends for linux, darwin and android
+//     (proxy/vless/l3client/device_android.go adopts the VpnService TUN fd
+//     passed via the xray.tun.fd env variable that StartLoop already sets)
+// Pinned to a tagged release so go module resolution is reproducible.
+replace github.com/xtls/xray-core => github.com/sevaktigranyan305-netizen/Xray-core v0.0.11-test
+
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/apernet/quic-go v0.59.1-0.20260330051153-c402ee641eb6 // indirect
