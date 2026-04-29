@@ -12,8 +12,13 @@ require (
 //   - VLESS L3 client-side device backends for linux, darwin and android
 //     (proxy/vless/l3client/device_android.go adopts the VpnService TUN fd
 //     passed via the xray.tun.fd env variable that StartLoop already sets)
+//   - Optional vnetIp anchor on the VLESS outbound: when the panel
+//     pre-allocates an IP via its IPAM and embeds it into the VLESS link
+//     as vnetIp=…, the client validates the server preamble against that
+//     value. Required on android because v2rayNG configures the TUN
+//     address via VpnService.Builder before xray sees the file descriptor.
 // Pinned to a tagged release so go module resolution is reproducible.
-replace github.com/xtls/xray-core => github.com/sevaktigranyan305-netizen/Xray-core v0.0.11-test
+replace github.com/xtls/xray-core => github.com/sevaktigranyan305-netizen/Xray-core v0.0.12-test
 
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
